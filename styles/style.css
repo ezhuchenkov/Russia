@@ -84,7 +84,7 @@
     }
     .container {
         width: 928px;
-}
+    }
 }
 
 @media screen and (max-width:1024px) {
@@ -108,7 +108,7 @@
     }
     .container {
         width: 720px;
-}
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -133,7 +133,7 @@
     }
     .container {
         width: 343px;
-}
+    }
 }
 
 @media screen and (max-width:375px) {
@@ -153,5 +153,5 @@
     }
     .container {
         width: 288px;
-}
+    }
 }

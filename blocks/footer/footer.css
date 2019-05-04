@@ -30,3 +30,32 @@
 .footer__link {
     text-decoration: none;
 }
+
+@media screen and (max-width:1024px) {
+    .footer__menu_item {
+        margin: 0px 20px 0px 0px;
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .copyright {
+        top: 2px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .footer__menu {
+        flex-direction: column;
+    }
+    .footer__menu_item {
+        margin: 0px 0px 32px 0px;
+        font-size: 24px;
+        line-height: 41px;
+    }
+    .copyright {
+        position: relative;
+        margin-top: 25px;
+    }
+    .footer {
+        padding-bottom: 24px;
+    }
+}
