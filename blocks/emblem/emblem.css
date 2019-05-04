@@ -37,3 +37,126 @@
     text-align: center;
     color: #cccccc;
 }
+
+@media screen and (max-width:1280px) {
+    .emblem {
+        margin: 0px auto 102px;
+        width: 992px;
+    }
+
+    .emblem__item {
+        width: 198px;
+        height: 286px;
+        margin: 0px;
+    }
+    
+    .emblem__image {
+        width: 169px;
+        height: 200px;
+    }
+    
+    .emblem__city {
+        margin: 37px auto 0px;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .emblem {
+        margin: 0px auto 85px;
+        width: 720px;
+    }
+    
+    .emblem__title {
+        width: 720px;
+    }
+    
+    .emblem__container {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .emblem__item {
+        margin-right: 63px;
+    }
+
+    .emblem__item:nth-of-type(3) {
+        margin-right: 0px;
+    }
+
+    .emblem__item:nth-of-type(4) {
+        margin-top: 90px;
+    }
+    .emblem__item:nth-of-type(5) {
+        margin-top: 90px;
+    }
+    
+    .emblem__image {
+        width: 190.93px;
+        height: 226px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .emblem {
+        margin: 0px auto 88px;
+        width: 343px;
+    }
+    
+    .emblem__title {
+        font-size: 24px;
+        line-height: 26px;
+        width: 343px;
+        margin: 0px auto 32px;
+        text-align: center;
+    }
+    
+    .emblem__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .emblem__item {
+        width: 208px;
+        height: 310px;
+        margin: 0px auto 56px;
+    }
+    .emblem__item:nth-of-type(3) {
+        margin: 0px auto 56px;
+    }
+
+    .emblem__item:nth-of-type(4) {
+        margin: 0px auto 56px;
+    }
+
+    .emblem__item:nth-of-type(5) {
+        margin: 0px;
+    }
+    .emblem__image {
+        display: block;
+        width: 190.93px;
+        height: 226px;
+        margin: 0px auto;
+    }
+    
+    .emblem__city {
+        margin: 35px auto 0px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        color: #cccccc;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .emblem {
+        margin: 0px auto 64px;
+        width: 288px;
+    }
+    .emblem__title {
+        width: 288px;
+    }
+}
