@@ -1,3 +1,7 @@
+.barentsburg{
+    width: 1184px;
+    margin: 0px auto 160px;
+}
 .barentsburg__title {
     width: 583px;
     font-weight: 900;
@@ -29,4 +33,119 @@
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+}
+
+
+@media screen and (max-width:1280px) {
+    .barentsburg{
+        width: 1024px;
+        margin: 0px auto 104px;
+    }
+    
+    .barentsburg__map {
+        width: 1024px;
+        height: 464px;
+    }
+    
+    .barentsburg__description_text {
+        width: 380px;
+        margin: 0px 90px 0px 48px;
+ 
+    }
+    .barentsburg__title {
+        margin: 0px 0px 20px 48px;
+    }
+    
+    .barentsburg__subtitle {
+        margin: 0px 0px 48px 48px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .barentsburg{
+        width: 768px;
+    }
+    .barentsburg__map {
+        margin: 0px 0px 56px 0px;
+        width: 768px;
+        height: 362px;
+    }
+    .barentsburg__description_text {
+        width: 405px;
+        margin: 0px 24px 0px 24px;
+ 
+    }
+    .barentsburg__title {
+        width: 720px;
+        margin: 0px 0px 20px 24px;
+    }
+    
+    .barentsburg__subtitle {
+        width: 720px;
+        margin: 0px 0px 48px 24px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .barentsburg{
+        width: 375px;
+        margin: 0px auto 48px;
+    }
+    .barentsburg__map {
+        margin: 0px 0px 24px 0px;
+        width: 375px;
+        height: 184px;
+    }
+    .barentsburg__description {
+        flex-direction: column-reverse;
+    }
+    .barentsburg__description_text {
+        width: 343px;
+        margin: 0px 24px 0px 16px;
+    }
+
+    .website-link{
+        width: 343px;
+        margin: 0px auto;
+    }
+    .website{
+        width: 343px;
+        margin: 0px auto 32px;
+    }
+    .barentsburg__title {
+        width: 343px;
+        font-size: 24px;
+        line-height: 26px;
+        margin: 0px 0px 20px 16px;
+    }
+    
+    .barentsburg__subtitle {
+        width: 343px;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0px 0px 48px 16px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .barentsburg{
+        width: 320px;
+        margin: 0px auto 64px;
+    }
+    .barentsburg__map {
+        width: 320px;
+    }
+    .barentsburg__description_text {
+        width: 288px;
+    }
+    .barentsburg__description_text {
+        width: 288px;
+    }
+    .website-link{
+        width: 288px;
+    }
+    .website{
+        width: 288px;
+    }
 }
