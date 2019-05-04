@@ -38,11 +38,11 @@
 
 @media screen and (max-width:1280px) {
     .barentsburg {
-        width: 1024px;
+        width: 100%;
         margin: 0px auto 104px;
     }
     .barentsburg__map {
-        width: 1024px;
+        width: 100%;
         height: 464px;
     }
     .barentsburg__description_text {
@@ -58,12 +58,8 @@
 }
 
 @media screen and (max-width:1024px) {
-    .barentsburg {
-        width: 768px;
-    }
     .barentsburg__map {
         margin: 0px 0px 56px 0px;
-        width: 768px;
         height: 362px;
     }
     .barentsburg__description_text {
@@ -82,12 +78,10 @@
 
 @media screen and (max-width:768px) {
     .barentsburg {
-        width: 375px;
         margin: 0px auto 48px;
     }
     .barentsburg__map {
         margin: 0px 0px 24px 0px;
-        width: 375px;
         height: 184px;
     }
     .barentsburg__description {
@@ -121,11 +115,7 @@
 
 @media screen and (max-width:375px) {
     .barentsburg {
-        width: 320px;
         margin: 0px auto 64px;
-    }
-    .barentsburg__map {
-        width: 320px;
     }
     .barentsburg__description_text {
         width: 288px;
