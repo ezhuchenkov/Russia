@@ -1,0 +1,32 @@
+.barentsburg__title {
+    width: 583px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 61px;
+    font-family: Inter-Black;
+    margin: 0px 0px 20px 0px;
+}
+
+.barentsburg__subtitle {
+    width: 583px;
+    font-weight: normal;
+    font-size: 42px;
+    line-height: 61px;
+    margin: 0px 0px 48px 0px;
+}
+
+.barentsburg__map {
+    margin: 0px 0px 48px 0px;
+}
+
+.barentsburg__description {
+    display: flex;
+}
+
+.barentsburg__description_text {
+    width: 380px;
+    margin: 0px 120px 0px 0px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}

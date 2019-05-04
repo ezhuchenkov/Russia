@@ -1,0 +1,39 @@
+.emblem {
+    margin: 0px auto 85px;
+    width: 1184px;
+}
+
+.emblem__title {
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 46px;
+    font-family: Inter-Black;
+    width: 443px;
+}
+
+.emblem__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.emblem__item {
+    width: 208px;
+    height: 310px;
+    margin: 0px;
+}
+
+.emblem__image {
+    display: block;
+    width: 190.93px;
+    height: 226px;
+    margin: 0px auto;
+}
+
+.emblem__city {
+    margin: 35px auto 0px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 26px;
+    text-align: center;
+    color: #cccccc;
+}

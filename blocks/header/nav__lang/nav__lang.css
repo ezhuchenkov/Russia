@@ -1,0 +1,33 @@
+.nav {
+    float: right;
+    margin-top: 17px;
+    margin-bottom: 12px;
+}
+
+.nav__lang {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 23px;
+}
+
+.nav__lang_ru {
+    width: 30px;
+    text-decoration-line: underline;
+    margin-right: 18px;
+}
+
+.nav__lang_en {
+    width: 30px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:375px){
+    .nav__lang {
+        font-size: 18px;
+        line-height: 17px;
+    }
+}

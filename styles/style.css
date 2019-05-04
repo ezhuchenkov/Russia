@@ -1,0 +1,148 @@
+@import url("./normalize.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/lead/lead.css");
+@import url("../blocks/header/nav__lang/nav__lang.css");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/photo-grid/photo-grid.css");
+@import url("../blocks/places/places.css");
+@import url("../blocks/video/video.css");
+@import url("../blocks/addictional/addictional.css");
+@import url("../blocks/comments/comments.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/emblem/emblem.css");
+@import url("../blocks/barentsburg/barentsburg.css");
+@import url("../blocks/footer/footer.css");
+@font-face {
+    font-family: "Inter-Black";
+    font-style: normal;
+    src: url("../fonts/woff/Inter-Black.woff") format('woff'), url("../fonts/woff2/Inter-Black.woff2") format('woff2'), url("../fonts/ttf/Inter-Black.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    src: url("../fonts/woff/Inter-Regular.woff") format('woff'), url("../fonts/woff2/Inter-Regular.woff2") format('woff2'), url("../fonts/ttf/Inter-Regular.ttf") format('ttf');
+}
+
+.page {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #2A2C2F;
+    color: #ffffff;
+    font-family: Inter;
+    font-style: normal;
+}
+
+.link {
+    transition: opacity .8s linear;
+    color: inherit;
+}
+
+.link:hover {
+    opacity: 0.7;
+}
+
+.content-1184 {
+    margin: 0px auto 102px;
+    width: 1184px;
+}
+
+.block__title {
+    font-family: Inter-Black;
+    font-weight: 900;
+    width: 800px;
+    font-size: 72px;
+    text-align: center;
+    margin: 0px auto 48px;
+}
+
+.block__subtitle {
+    margin: 0px auto 72px;
+    width: 640px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.container {
+    width: 1184px;
+    margin: 0px auto;
+}
+
+@media screen and (max-width:1440px) {
+    .page {
+        width: 1280px;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .page {
+        width: 1024px;
+    }
+    .content-1184 {
+        width: 928px;
+    }
+    .container {
+        width: 928px;
+}
+}
+
+@media screen and (max-width:1024px) {
+    .page {
+        width: 768px;
+    }
+    .content-1184 {
+        width: 720px;
+    }
+    .block__title {
+        width: 720px;
+        font-size: 42px;
+        line-height: 46px;
+        margin: 0px auto 24px;
+    }
+    .block__subtitle {
+        margin: 0px auto 56px;
+        width: 640px;
+        font-size: 24px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .page {
+        width: 375px;
+    }
+    .content-1184 {
+        width: 343px;
+        margin-bottom: 64px;
+    }
+    .block__title {
+        width: 100%;
+        font-size: 32px;
+        line-height: 35px;
+        margin: 0px auto 16px;
+    }
+    .block__subtitle {
+        margin-bottom: 32px;
+        width: 100%;
+        font-size: 16px;
+        line-height: 23px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .page {
+        width: 320px;
+        margin: 0;
+    }
+    .content-1184 {
+        width: 288px;
+    }
+    .block__title {
+        width: 288px;
+    }
+    .block__subtitle {
+        width: 288px;
+        margin-bottom: 34px;
+    }
+}
