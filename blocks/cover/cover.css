@@ -111,9 +111,6 @@
 }
 
 @media screen and (max-width:375px) {
-    .cover__link {
-        height: 216px;
-    }
     .cover__image-link_title {
         top: 63px;
     }

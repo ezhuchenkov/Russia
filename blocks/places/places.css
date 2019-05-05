@@ -1,109 +1,12 @@
+@import url("./place.css");
+
 .places {
     width: 984px;
-    margin: 0px auto 102px;
-}
-
-.places_place {
-    margin-bottom: 72px;
-}
-
-.places_place:last-child {
-    margin-bottom: 0px;
-}
-
-.place__header {
-    margin: 0px 0px 60px 0px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.place__header_title {
-    width: 457px;
-    font-size: 72px;
-    line-height: 65px;
-    margin: 0px 43px 0px 0px;
-    font-family: Inter-Black;
-    font-weight: 900;
-}
-
-.website {
-    width: 484px;
-}
-
-.website-description {
-    color: #aaaaaa;
-    letter-spacing: 0.2em;
-    margin: 0px 0px 16px 0px;
-    font-size: 12px;
-    line-height: 20px;
-}
-
-.website-link {
-    font-size: 18px;
-    line-height: 30px;
-    text-decoration-line: underline;
-    font-weight: normal;
-}
-
-.place__content {
-    display: flex;
-}
-
-.place__content_img {
-    width: 460px;
-    height: 460px;
-}
-
-.place__content_description {
-    margin: 0px 0px 0px 40px;
-}
-
-.place__content_description-paragraph {
-    font-size: 18px;
-    line-height: 30px;
-    margin: 0px 0px 36px 0px;
-    font-weight: normal;
 }
 
 @media screen and (max-width:1280px) {
     .places {
         width: 90%;
-    }
-    .place__header {
-        margin-bottom: 40px;
-        margin-right: 32px;
-    }
-    .website {
-        width: 456px;
-    }
-    .place__content_img {
-        width: 440px;
-        height: 440px;
-    }
-    .place__content_description {
-        margin-left: 32px;
-    }
-}
-
-@media screen and (max-width:1024px) {
-    .place__header_title {
-        font-size: 42px;
-        line-height: 46px;
-        margin-right: 32px;
-    }
-    .website {
-        width: 352px;
-    }
-    .place__content_img {
-        width: 340px;
-        height: 340px;
-    }
-    .place__content_description {
-        margin-left: 28px;
-    }
-    .place__content_description-paragraph {
-        font-size: 16px;
-        line-height: 27px;
     }
 }
 
@@ -111,38 +14,6 @@
     .places {
         width: 100%;
         margin-bottom: 64px;
-    }
-    .places_place {
-        margin-bottom: 24px;
-    }
-    .place__header {
-        margin-right: 0px;
-        flex-direction: column;
-        margin-bottom: 0px;
-    }
-    .place__header_title {
-        width: 90%;
-        font-size: 32px;
-        line-height: 35px;
-        margin: 0px auto 16px;
-    }
-    .website {
-        width: 90%;
-        margin: 0px auto;
-    }
-    .place__content {
-        flex-direction: column;
-    }
-    .place__content_img {
-        width: 100%;
-        margin-bottom: 24px;
-    }
-    .place__content_description {
-        margin: 0px auto;
-    }
-    .place__content_description-paragraph {
-        width: 90%;
-        margin: 0 auto 24px;
     }
 }
 
