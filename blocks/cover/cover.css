@@ -92,14 +92,14 @@
         height: 272px;
     }
     .cover__image-link_title {
-        width: 343px;
+        width: 90%;
         top: 103px;
         left: 16px;
         font-size: 32px;
         line-height: 35px;
     }
     .cover__image-link_subtitle {
-        width: 343px;
+        width: 90%;
         left: 16px;
         bottom: 24px;
         font-size: 14px;
@@ -114,14 +114,7 @@
     .cover__link {
         height: 216px;
     }
-    .cover__image {
-        height: 216px;
-    }
     .cover__image-link_title {
-        width: 288px;
         top: 63px;
-    }
-    .cover__image-link_subtitle {
-        width: 288px;
     }
 }

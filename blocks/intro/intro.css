@@ -4,6 +4,7 @@
 }
 
 .intro__title {
+    width: 100%;
     margin: 0px 0px 45px 0px;
     font-size: 54px;
     line-height: 59px;
@@ -12,6 +13,7 @@
 }
 
 .intro__subtitle {
+    width: 100%;
     margin: 0px 0px 35px 0px;
     font-size: 24px;
     line-height: 38px;
@@ -61,19 +63,12 @@
 
 @media screen and (max-width:1280px) {
     .intro {
-        width: 928px;
-    }
-    .intro__subtitle {
-        width: 928px;
+        width: 90%;
     }
 }
 
 @media screen and (max-width:1024px) {
-    .intro {
-        width: 720px;
-    }
     .intro__subtitle {
-        width: 720px;
         margin-bottom: 19px;
     }
     .intro__content {
@@ -90,19 +85,15 @@
 
 @media screen and (max-width:768px) {
     .intro {
-        width: 343px;
         margin-bottom: 64px;
     }
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        width: 343px;
         margin-bottom: 23px;
     }
     .intro__subtitle {
         line-height: 32px;
-        width: 343px;
-        height: 57px;
         margin-bottom: 23px;
     }
     .intro__content {
@@ -125,18 +116,13 @@
 }
 
 @media screen and (max-width:375px) {
-    .intro {
-        width: 288px;
-    }
+
     .intro__title {
         font-size: 32px;
         line-height: 35px;
-        width: 288px;
         margin-bottom: 14px;
     }
     .intro__subtitle {
-        width: 288px;
-        height: 72px;
         margin-bottom: 8px;
     }
     .intro__content {

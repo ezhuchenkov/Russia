@@ -63,7 +63,7 @@
 
 @media screen and (max-width:1280px) {
     .photo-grid {
-        width: 928px;
+        width: 90%;
         height: 842px;
         grid-template-columns: 300px 300px 300px;
         grid-template-rows: 200px 200px 200px 200px;
@@ -73,7 +73,6 @@
 
 @media screen and (max-width:1024px) {
     .photo-grid {
-        width: 720px;
         height: 1485px;
         grid-template-columns: 352px 352px;
         grid-template-rows: 234px 234px 234px 234px 234px;
@@ -83,7 +82,6 @@
 
 @media screen and (max-width:768px) {
     .photo-grid {
-        width: 343px;
         height: 2959px;
         grid-template-columns: 343px;
         grid-template-rows: 232px 232px 232px 232px 232px 232px 232px 232px 232px 232px;
@@ -94,7 +92,6 @@
 
 @media screen and (max-width:375px) {
     .photo-grid {
-        width: 288px;
         height: 2392px;
         grid-template-columns: 288px;
         grid-template-rows: 192px 192px 192px 192px 192px 192px 192px 192px 192px 192px;

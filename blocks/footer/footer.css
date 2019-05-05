@@ -13,7 +13,7 @@
 .footer__menu_item {
     margin: 0px 18px 0px 0px;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 1.5rem;
     line-height: 41px;
 }
 
@@ -34,7 +34,7 @@
 @media screen and (max-width:1024px) {
     .footer__menu_item {
         margin: 0px 20px 0px 0px;
-        font-size: 16px;
+        font-size: 1rem;
         line-height: 27px;
     }
     .copyright {
@@ -48,8 +48,6 @@
     }
     .footer__menu_item {
         margin: 0px 0px 32px 0px;
-        font-size: 24px;
-        line-height: 41px;
     }
     .copyright {
         position: relative;
