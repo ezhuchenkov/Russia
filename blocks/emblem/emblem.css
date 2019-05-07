@@ -4,10 +4,9 @@
 }
 
 .emblem__title {
-    font-weight: 900;
+    font-weight: bold;
     font-size: 42px;
     line-height: 46px;
-    font-family: Inter-Black;
     width: 443px;
 }
 

@@ -41,8 +41,7 @@
     text-align: left;
     margin: 0px;
     z-index: 3;
-    font-family: Inter-Black;
-    font-weight: 900;
+    font-weight: bold;
 }
 
 .video_subtitle {

@@ -21,8 +21,6 @@
     <div class="page">
         <div class="content">
             <header class="header">
-                <!-- Надо исправить: для сходства с макетом стоит добавить отступ сверху, иначе логотип прилипает к верхней грани страницы                      DONE-->
-                <!-- Надо исправить: svg изображение лучше подключить через тег img, указав ссылку на файл                                                      DONE-->
                 <img src="./blocks/header/images/__logo.svg" alt="Карта России" class="header__logo">
                 <nav class="nav">
                     <ul class="nav__lang">
@@ -87,20 +85,10 @@
                 <img src="./blocks/photo-grid/images/ergaki.jpg" alt="Картинка с красотами России" class="photo-grid__item">
             </section>
 
-                <!-- Можно лучше: сложно ориентироваться среди элементов с именами item-{номер}, может дать им говорящие имена
-                        но проще было бы заменить их на img, чем со стилями возиться                                    DONE-->
 
 
 
             <section class="content-1184 places">
-                <!-- Нужно исправить: сейчас наименования классов не соответствуют БЭМ подходу
-                        в нашем случае используется правило именования блок__элемент_модификатор
-                        т.е. place означет элемент place блока places
-                        а place__header -- элемент header блока place
-                        но у нас сейчас нет блока place, есть элемент place блока places
-                        (уточню: элемент элемента в БЭМ не существует )
-                        в данной ситуации логичнее всего place сделать блоком
-                        блок вполне может лежать внутри другого блока и даже элемента                              DONE-->
                 <article class="place">
                     <header class="place__header">
                         <h2 class="place__header_title ">Куршская коса</h2>
@@ -220,10 +208,6 @@
                 </article>
             </section>
             <section class="content-1184 video">
-                <!-- Нужно исправить: block__title -- это элемент title блока block
-                        но нет ведь тут блока block
-                        почему бы не сделать title блоком?
-                        аналогично и про block__subtitle                                                                      DONE-->
                 <h2 class="title">В глубины Земли и в дальний космос</h2>
                 <h4 class="subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные
                     исследования</h4>
@@ -284,22 +268,21 @@
                 <h4 class="subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных
                     конкурсах</h4>
                 <div class="comments__container">
-                    <!-- Нужно исправить: comment ломает структуру БЭМ, зачем нужен модификатор _item?                 DONE-->
                     <div class="comment">
-                        <img src="./blocks/comments/images/Виктор Лягушкин.png" alt="" class="comment__image">
+                        <img src="./blocks/comments/images/Victor_Lyagushkin.png" alt="" class="comment__image">
                         <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте
                             “наружу”…»</p>
                         <p class="comment__author">Виктор Лягушкин</p>
                     </div>
                     <div class="comment">
-                        <img src="./blocks/comments/images/Иван Хафизов.png" alt="" class="comment__image">
+                        <img src="./blocks/comments/images/Ivan_Khafizov.png" alt="" class="comment__image">
                         <p class="comment__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или
                             фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью,
                             рабочими местами и в конечном счёте наполняют его жизнью.»</p>
                         <p class="comment__author">Иван Хафизов</p>
                     </div>
                     <div class="comment">
-                        <img src="./blocks/comments/images/Сергей Максимишин.png" alt="" class="comment__image">
+                        <img src="./blocks/comments/images/Sergey_Maksimishin.png" alt="" class="comment__image">
                         <p class="comment__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты
                             покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
                         <p class="comment__author">Сергей Максимишин</p>
@@ -312,9 +295,6 @@
                     <h3 class="cover__image-link_title">До Байкала «на собаках»</h3>
                     <p class="cover__image-link_subtitle">По мотивам учебной темы о Транссибе и iframes — путешествие от
                         столицы до Байкала на электричках.</p>
-                    <!-- Нужно исправить: video__dark-layer -- элемент блока video
-                        нельзя использовать его в других блоках
-                        либо нужно дать другое название, чтобы video__dark-layer был независим от video               DONE-->
                     <div class="dark-layer"></div>
                 </a>
             </section>
@@ -322,33 +302,32 @@
                 <h2 class="emblem__title">Природа на гербах российских городов</h2>
                 <div class="emblem__container">
                     <div class="emblem__item">
-                        <!-- Нужно исправить: нужно переименовать, путь с пробелом не обрабатывается и картинка не отображается              DONE-->
-                        <img src="./blocks/emblem/images/Великий_Новгород.png" alt="Герб Великого Новгорода"
+                        <img src="./blocks/emblem/images/Velikiy_Novgorod.png" alt="Герб Великого Новгорода"
                             class="emblem__image">
                         <p class="emblem__city">Великий Новгород</p>
                     </div>
                     <div class="emblem__item">
-                        <img src="./blocks/emblem/images/Ростов_Великий.png" alt="Герб Ростова Великого"
+                        <img src="./blocks/emblem/images/Rostov_Velikiy.png" alt="Герб Ростова Великого"
                             class="emblem__image">
                         <p class="emblem__city">Ростов Великий</p>
                     </div>
                     <div class="emblem__item">
-                        <img src="./blocks/emblem/images/Тамбов.png" alt="Герб Тамбова" class="emblem__image">
+                        <img src="./blocks/emblem/images/Tambov.png" alt="Герб Тамбова" class="emblem__image">
                         <p class="emblem__city">Тамбов</p>
                     </div>
                     <div class="emblem__item">
-                        <img src="./blocks/emblem/images/Елабуга.png" alt="Герб Елабуги" class="emblem__image">
+                        <img src="./blocks/emblem/images/Elabuga.png" alt="Герб Елабуги" class="emblem__image">
                         <p class="emblem__city">Елабуга</p>
                     </div>
                     <div class="emblem__item">
-                        <img src="./blocks/emblem/images/Пермь.png" alt="Герб Перми" class="emblem__image">
+                        <img src="./blocks/emblem/images/Perm.png" alt="Герб Перми" class="emblem__image">
                         <p class="emblem__city">Пермь</p>
                     </div>
                 </div>
             </section>
             <section class="barentsburg">
                 <h2 class="barentsburg__title">Баренцбург</h2>
-                <h3 class="barentsburg__subtitle">78.0648&deg; с.ш. 14.2335&deg; в.д.</h3>
+                <h3 class="barentsburg__subtitle">78.0648&#176; с.ш. 14.2335&#176; в.д.</h3>
                 <img src="./blocks/barentsburg/images/__map.png" alt="Карта острова в Гренландском море"
                     class="barentsburg__map">
                 <div class="barentsburg__description">
@@ -376,7 +355,8 @@
                                 class="footer__link link">Путешествия</a></li>
                     </ul>
                 </nav>
-                <p class="copyright">&copy; 2019, Ежученков Александр</p>
+                <!-- Можно улучшить: для спец символов нужно использовать html - мнемоники (https://ru.wikipedia.org/wiki/Мнемоники_в_HTML)              DONE-->
+                <p class="copyright">&#169; 2019, Ежученков Александр</p>
             </footer>
         </div>
     </div>
@@ -395,9 +375,9 @@
         7. У изображений прописан атрибут alt
 
     Нужно исправить:
-        1. Исправить пути к картинкам (они не должны содержать пробелов)             DONE
-        2. Привести к БЭМ place, title, subtitle, comment, video__dark-layer внутри cover             DONE
-        -->
+        1. Исправить пути к картинкам (они не должны содержать пробелов)             DONE - нет, например "Виктор Лягушкин.png"
+            а ещё теперь изображения переименовались в какой-то непонятной кодировке и гербы городов тоже не отображаются =(                       DONE
+        -->             
 
 <!-- CSS
     Хорошо:
@@ -406,9 +386,9 @@
         3. Есть переиспользуемые блоки и элементы
 
     Нужно исправить:
-        1. страница должна растягиваться на всю ширину окна,
-            сейчас при разрешении 1200 можно найти в стилях width: 1024px,
-            а по бокам серые полоски, хотя макет не предполагал этого                                DONE
-        2.  на разрешении 320 кнопка запуска видео некрасиво сползла                               DONE
+        1. place__header_title должен быть выровнен по левому краю, сейчас у него какой-то отступ слева =(              DONE
+        2. шрифт footer__menu_item не соответсвует макету на мобильниках (должен быть крупнее)                          DONE
 
+    Можно лучше:
+        1. Задать шрифты иначе             DONE
         -->

@@ -19,7 +19,7 @@
     font-size: 14px;
     line-height: 23px;
     margin: 0px;
-    font-family: Inter-Black;
+    font-weight: bold;
 }
 
 @media screen and (max-width:1280px) {

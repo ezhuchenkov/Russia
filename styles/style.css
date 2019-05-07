@@ -12,8 +12,22 @@
 @import url("../blocks/emblem/emblem.css");
 @import url("../blocks/barentsburg/barentsburg.css");
 @import url("../blocks/footer/footer.css");
+/* Можно лучше: не уверена, что в задании предполагали использовать разные font-family
+    если указать несколько @font-face с одинаковым font-family, но разными font-weight, font-style и подобным,
+    то в зависимости от значений этих css-свойств будет выбираться нужный шрифт
+    например, можно было написать
+    @font-face {
+    font-family: "Inter";
+        font-weight: bold;
+        font-style: normal;
+        src: url("../fonts/woff/Inter-Black.woff") format('woff'), url("../fonts/woff2/Inter-Black.woff2") format('woff2'), url("../fonts/ttf/Inter-Black.ttf") format('ttf');
+    }
+    тогда если в стиле указан font-family: "Inter"; и font-weight: normal; -- применится Inter-Regular
+    а для font-family: "Inter"; и font-weight: bold; -- применится Inter-Black
+*/
 @font-face {
-    font-family: "Inter-Black";
+    font-family: "Inter";
+    font-weight: bold;
     font-style: normal;
     src: url("../fonts/woff/Inter-Black.woff") format('woff'), url("../fonts/woff2/Inter-Black.woff2") format('woff2'), url("../fonts/ttf/Inter-Black.ttf") format('ttf');
 }
@@ -21,6 +35,7 @@
 @font-face {
     font-family: "Inter";
     font-style: normal;
+    font-weight: normal;
     src: url("../fonts/woff/Inter-Regular.woff") format('woff'), url("../fonts/woff2/Inter-Regular.woff2") format('woff2'), url("../fonts/ttf/Inter-Regular.ttf") format('ttf');
 }
 
@@ -29,6 +44,7 @@
     background-color: #2A2C2F;
     color: #ffffff;
     font-family: Inter;
+    font-weight: normal;
     font-style: normal;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
@@ -57,8 +73,7 @@
 }
 
 .title {
-    font-family: Inter-Black;
-    font-weight: 900;
+    font-weight: bold;
     width: 800px;
     font-size: 72px;
     text-align: center;
